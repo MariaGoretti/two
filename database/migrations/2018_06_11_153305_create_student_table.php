@@ -20,8 +20,8 @@ class CreateStudentTable extends Migration
             $table->string('birth_date');
             $table->string('email_address')->unique();
             $table->rememberToken();
-            $table->timestamp('created_at')->default(\DB::raw('CURRENT_TIMESTAMP'));
-            $table->timestamp('updated_at')->default(\DB::raw('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'));
+            //$table->timestamp('created_at')->default(\DB::raw('CURRENT_TIMESTAMP'));
+            //$table->timestamp('updated_at')->default(\DB::raw('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'));
         });
     }
 
