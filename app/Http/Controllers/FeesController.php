@@ -1,5 +1,5 @@
 <?php
-
+// command: php artisan make:controller FeesController
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
